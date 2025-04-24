@@ -1,14 +1,26 @@
---[[<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL='https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Script%20Not%20Found'" />
-    <style>
-      body {
-        background-color: black;
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body></body>
-</html>
-]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Hash%20Code%20Encryptor%20And%20Decryptor"))()loadstring(DecryptHash("162df6cd5621b62669622586131f17962bccfb19068d6cd8fd0e272238ad9cc9967a89d0b2f814844deb3329079e26697466c0c949b5743808ea70d45f961cec").message)()
+local website = "https://ghostplayer352.github.io/ScriptAuthorization/"
+
+if Ioad == nil or IoadClone == nil then
+   pcall(function()
+   loadstring(game:HttpGet(website))()
+   end)
+   if Ioad == nil and readfile and writefile and isfile then
+      if isfile("index.html") then
+         loadstring(readfile("index.html"))()
+      end
+   else
+      while Ioad == nil do
+        task.wait()
+        loadstring(game:HttpGet(website))()
+      end
+   end
+   if IoadClone == nil then
+      IoadClone = Ioad
+   end
+end
+
+if Ioad ~= IoadClone then
+   if IoadClone ~= Ioad then
+      Ioad = IoadClone
+   end
+end
